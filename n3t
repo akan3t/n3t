@@ -1,0 +1,5 @@
+aptos genesis set-validator-configuration \
+    --keys-dir ~/$WORKSPACE --local-repository-dir ~/$WORKSPACE \
+    --username Имя_Ноды \
+    --validator-host Ваш_айпи:6180 \
+    --full-node-host Ваш_айпи:6182
